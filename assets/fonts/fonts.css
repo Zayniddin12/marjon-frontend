@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Averta CY";
+    src: url("~/assets/fonts/fonts/AvertaCY-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Averta CY";
+    src: url("~/assets/fonts/fonts/AvertaCY-Regular.woff2") format("woff2");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Averta CY";
+    src: url("~/assets/fonts/fonts/AvertaCY-Semibold.woff2") format("woff2");
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Averta CY";
+    src: url("~/assets/fonts/fonts/AvertaCY-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "AUTO";
+    src: url("~/assets/fonts/fonts/UZBAUTO.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Averta CY', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.font-auto {
+    font-family: 'AUTO', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

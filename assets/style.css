@@ -1,0 +1,87 @@
+.linear-purple {
+    background: linear-gradient(180deg, #250F4F -9.12%, #190A35 104.25%);
+}
+
+.linear-bg-white {
+    background: linear-gradient(180deg, #fff 0%, #f6fffd 100%);
+}
+
+.header-shadow-white {
+    box-shadow: 0px 0.27766px 0px 0px rgba(28, 78, 66, 0.00), 0px -0.58577px 1.0426px 0px rgba(28, 78, 66, 0.00), 0px -2.41971px 8.12411px 0px rgba(28, 78, 66, 0.01), 0px -4.35376px 31.5454px 0px rgba(28, 78, 66, 0.01), 0px -2.35307px 54.82767px 0px rgba(28, 78, 66, 0.02), 0px 27px 71px 0px rgba(28, 78, 66, 0.03);
+}
+
+
+/*Static*/
+.static-text p,
+.static-text li {
+    text-align: justify;
+    font-size: 14px;
+    color: #190A35;
+    margin-bottom: 20px;
+}
+
+.static-text ol,
+.static-text ul {
+    padding-left: 16px;
+}
+
+.static-text ul li {
+    list-style: disc;
+    position: relative;
+}
+
+.static-text ol li {
+    list-style: auto;
+}
+
+.static-text a {
+    color: #4489f7;
+}
+
+.static-text a:hover {
+    text-decoration: underline;
+}
+
+.static-text img {
+    width: 100%;
+    max-height: 438px;
+    border-radius: 8px;
+}
+
+.static-text b {
+    font-weight: 500;
+}
+
+.static-text h4, .static-text h3, .static-text h2, .static-text h1, .static-text h5, .static-text h6 {
+    color: #190A35;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 8px !important;
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .static-text p,
+    .static-text li {
+        font-size: 14px;
+    }
+
+    .static-text > * {
+        margin-bottom: 12px !important;
+    }
+}
+
+
+@media print {
+    header, footer {
+        display: none;
+    }
+}
+
+/* Font smoothing */
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

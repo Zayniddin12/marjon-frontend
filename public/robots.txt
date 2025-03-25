@@ -1,0 +1,72 @@
+User-agent: *
+
+Sitemap: https://marjon.uz/sitemap_index.xml
+
+User-agent: AhrefsBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: Serpstatbot
+Disallow: /
+User-agent: ZoominfoBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: PetalBot
+Disallow: /
+User-agent: SeznamBot
+Disallow: /
+User-agent: DotBot
+Disallow: /
+User-agent: WebZIP
+Disallow: /
+User-agent: WebSnake
+Disallow: /
+User-agent: Offline Explorer
+Disallow: /
+User-agent: Wget
+Disallow: /
+User-agent: DISCo Pump
+Disallow: /
+User-agent: Baiduspider
+Disallow: /
+User-agent: ExaBot
+Disallow: /
+User-agent: CrazyWebCrawler-Spider
+Disallow: /
+User-agent: psbot
+Disallow: /
+User-agent: Teleport Pro
+Disallow: /
+User-agent: gigabot
+Disallow: /
+User-agent: Web-By-Mail
+Disallow: /
+User-agent: Twiceler
+Disallow: /
+User-agent: ia_archiver
+Disallow: /
+User-agent: NetinfoBot
+Disallow: /
+User-agent: wotbox
+Disallow: /
+User-agent: BLEXBot
+Disallow: /
+User-agent: BUbiNG
+Disallow: /
+User-agent: Vedma
+Disallow: /
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-Agent: Yandex
+Sitemap: https://marjon.uz/sitemap_index.xml
+
+User-agent: Googlebot
+Sitemap: https://marjon.uz/sitemap_index.xml
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.webp
+Allow: /*.png
+Allow: /*.js
+Allow: /*.css
